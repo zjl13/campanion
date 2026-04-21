@@ -14,3 +14,11 @@ backend/storage/
 backend/tests/.test_artifacts/
 backend/tmp/
 backend/pytest-cache-files-*/
+
+# Local Codex prompt/spec docs
+/prd.md
+/architecture.md
+/api_spec.md
+/data_model.md
+/prompts.md
+/implementation_plan.md
