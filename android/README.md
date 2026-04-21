@@ -49,5 +49,10 @@ $env:JAVA_HOME="C:\Program Files\Eclipse Adoptium\jdk-17.0.18.8-hotspot"
 
 - The project path currently contains non-ASCII characters, so `android.overridePathCheck=true` is enabled in `gradle.properties`.
 - Gradle wrapper files have already been generated.
-- Full APK build was not completed in this session because the machine does not appear to have an Android SDK configured yet.
+- The local machine has been verified with `D:\SDK`, and `assembleDebug` succeeded in this workspace.
 
+## Testing Guide
+
+For handing the app to another person for real-device testing, use:
+
+- [REAL_DEVICE_TESTING_GUIDE.md](./REAL_DEVICE_TESTING_GUIDE.md)
