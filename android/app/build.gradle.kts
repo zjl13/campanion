@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.zjl13.campanion"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.zjl13.campanion"
@@ -75,4 +75,3 @@ dependencies {
 
     debugImplementation(libs.androidx.compose.ui.tooling)
 }
-

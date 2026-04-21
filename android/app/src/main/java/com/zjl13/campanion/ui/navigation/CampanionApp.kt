@@ -15,10 +15,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavType
 import androidx.navigation.NavGraph.Companion.findStartDestination
+import androidx.navigation.navArgument
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
-import androidx.navigation.compose.navArgument
 import androidx.navigation.compose.rememberNavController
 import com.zjl13.campanion.CampanionApplication
 import com.zjl13.campanion.core.appViewModel
